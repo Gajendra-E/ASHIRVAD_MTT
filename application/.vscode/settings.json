@@ -1,0 +1,5 @@
+{
+  "appService.deploySubpath": ".",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/01a2a91e-c699-406d-a4a5-9ba9ac136600/resourceGroups/acc/providers/Microsoft.Web/sites/accmtt"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "mtt",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A application",
+  "scripts": {
+    "install-dep": "npm install && cd application && npm install  && npm run build && cd ../ && cd flipbook && npm install",
+    "build": "cd application && npm run build",
+    "develop": "cd application && npm run develop",
+    "server": "cd application && npm run start",
+    "client": "cd flipbook && npm run start",
+    "prod": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  },
+  "author": {
+    "name": "GetMorph"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

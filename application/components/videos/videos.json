@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_videos_videos",
+  "info": {
+    "name": "videos",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

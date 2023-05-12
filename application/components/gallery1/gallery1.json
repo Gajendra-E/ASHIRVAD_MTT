@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gallery1_gallery1s",
+  "info": {
+    "name": "gallery1",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
